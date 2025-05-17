@@ -37,7 +37,7 @@ def get_product_description(browser: ChromiumDriver, product_url: str) -> str:
     return description
 
 
-def find_product_position(browser: ChromiumDriver, keywords: list[str], product_url: str) -> list[dict]:
+def find_product_positions(browser: ChromiumDriver, keywords: list[str], product_url: str) -> list[dict]:
     result_positions = []
     original_product_id = product_url.split('/')[-2]
     
