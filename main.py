@@ -109,7 +109,7 @@ def find_relevant_positions(
 
     description = get_product_description(browser, product_url)
     keywords = extract_keywords_from_description(description, keywords_count)
-    positions = find_product_position(browser, keywords, product_url)
+    positions = find_product_positions(browser, keywords, product_url)
 
     browser.quit()
 
