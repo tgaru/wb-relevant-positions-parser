@@ -70,7 +70,7 @@ pprint(result)
 Ссылка на товар: https://www.wildberries.ru/catalog/113507080/detail.aspx
 
 Результат:
-```json
+```
 {
   'url': 'https://www.wildberries.ru/catalog/113507080/detail.aspx',
   'description': 'Набор подшипников в тубе 10 штук.Подходят подшипники для '
